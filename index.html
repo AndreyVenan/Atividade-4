@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+        
+
+            <div class="links">
+                <img id="logo" src="logosite.png" alt="Logo da marca" >
+                <a href="#inicio" class="botao">Início</a>
+                <a href="#sobre" class="botao">Sobre</a>
+                <a href="#contato" class="botao">Contato</a>
+                <button onclick="mudartema()" ondblclick="retornatema()">
+    Modo Claro
+</button>
+
+            
+            </div>
+               <hr id="linha"> 
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="inicio">
+            <div class="textoo">
+                <h2 id="aga_dois">Bem-vindo a nossa concessionária</h2>
+                <p id="paragrafo">
+                    Encontre o carro dos seus sonhos com a melhor qualidade e atendimento.
+                </p>
+
+                <a href="#contato" class="botao">
+                    Conheça agora
+                </a>
+            </div>
+
+            <div class="imagem">
+                <img id="img" src="images (3).jpg" alt="Descrição da imagem">
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h2>O que temos de especial?</h2>
+
+            <div class="cartões">
+                <div class="cartão">
+                    <h3>Qualidade</h3>
+                    <p>Qualidade excepcional em nossos veículos.</p>
+                </div>
+
+                <div class="cartão">
+                    <h3>Bem avaliados</h3>
+                    <p>Veículos bem avaliados no mundo todo.</p>
+                </div>
+
+                <div class="cartão">
+                    <h3>Apoio</h3>
+                    <p>Suporte contínuo para nossos clientes.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contato">
+        <p>© 2026 Concessionária | Contato: Concessionária@Carros.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
