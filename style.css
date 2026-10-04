@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #111111, #2b2b2b);
+}
+.inicio {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 60px 10%;
+}
+.botao {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #c1121f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.textoo {
+    max-width: 550px;
+}
+
+.textoo h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.textoo p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.imagem img {
+    width: 450px;
+    max-width: 100%;
+}
+.cartões {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.cartão {
+    padding: 30px;
+    border-radius: 15px;
+    background: #3a3a3a;
+}
+.links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    }
+.links button {
+    margin-left: auto;
+    padding: 10px 20px;
+    background-color: #c1121f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ .links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #dddddd;
+    }  
+  .links a:hover {
+    color: #eae9e9;
+    background-color: #a00e16;
+    }
+#logo {
+    width: 70px;
+    height: auto;
+    border-radius: 0%;
+    }
+#aga_dois {
+    color: #e63946;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+#paragrafo {
+    color: #cccccc;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+#linha {
+    border: 1px solid #555555;
+    margin-top: 5px;
+}
+#img {
+    width: 450px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.light {
+    background: linear-gradient(90deg, #f2f2f2, #ffffff);
+}
+.light .links a {
+    color: #333;
+}
+.light #aga_dois {
+    color: #c1121f;
+}
+.light #paragrafo {
+    color: #555;
+}
+.light .cartão {
+    background-color: #e5e5e5;
+    color: #222;
+}
+.light #linha {
+    border-color: #ccc;
+}
+.light .links a:hover {
+    color: #c4c4c4;
+    background-color: #a00e16;
+}
+.light .links button {
+    background-color: #c1121f;
+    color: #090909;
+}
+.light .links button:hover {
+    background-color: #a00e16;
+}
